@@ -66,3 +66,45 @@ body{
 .head-img img:hover{
     transform: rotate(90deg);
 }
+
+/*----------------
+Top Players Styles
+-----------------*/
+.container{
+    background-color: white;
+    width: 1050px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 95px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    margin-top: 70px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    padding: 15px;
+}
+.player-img img{
+    width: 330px;
+    height: 256px;
+    margin-bottom: 16px;
+} 
+.player-name{
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191F;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.player-desc{
+    font-weight: normal;
+    font-size: 16px;
+    color: #6C6C6C;
+}
