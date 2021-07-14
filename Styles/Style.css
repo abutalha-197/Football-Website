@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 /* Header-Style */
 .head{
@@ -278,6 +279,9 @@ Media Quaries
 --------------*/
 /* Mobile Devices */
 @media only screen and (max-width:688px){
+    .body{
+        margin-left: 0;
+    }
     .head{
         flex-direction: column;
         height: 100%;
@@ -287,35 +291,50 @@ Media Quaries
     .head-detail{
       width: 278px;
       height: 138px;
+      padding: 30px 20px 160px 40px;
     }
     .head-detail h1{
         font-size: 36px; 
         line-height: 50px;
-        margin-right: 30px; 
+        margin-right: 30px;
     }
     .head-img img{
         width: 329px;
         height: 259.17px;
         margin-right: 0px;
         margin-left: 30px;
+        margin-top: 10px;
     }
     .container{
-        width: 100%;
+        width: 90%;
         margin-left: 0px;
         margin-right: 0px;
         padding-left: 15px;
         padding-right: 15px;
     }
     .players{
-        grid-template-columns: repeat(1,1fr);    
+        grid-template-columns: repeat(1,1fr);
+        padding: 15px;
+    }
+    .player{
+        width: 90%;
+    }
+    .player-img img{
+        width: 100%;
     }
     .result{
         flex-direction: column;
         width: 100%;
         
     }
+    .result-info{
+        margin-left: 40px;
+    }
     .result-image{
-        flex-direction: column;
+        flex-direction: column;   
+    }
+    .result-link img{
+        margin: 0;
     }
     .t-info{
         flex-direction: column;
@@ -324,7 +343,7 @@ Media Quaries
         flex-direction: column;
     }
     .t-head{
-        margin: 20px 50px 20px 30px;
+        margin: 60px 50px 20px 30px;
         line-height: 1.5;
     }
     .t-btn{
@@ -332,8 +351,10 @@ Media Quaries
         margin-right: 100px;
     }
     .league{
-        width: 250px;
+        width: 280px;
         height: 300px;
+        margin-right: 40px;
+        margin-left: 40px;
     }
     .f-logo img{
         width: 150px;
