@@ -1,0 +1,68 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*---------------
+common style-
+----------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Header-Style */
+.head{
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+.head-detail:hover{
+    transform: scale(.8);
+}
+.head-detail{
+    display: flex;
+    flex-direction: column;
+    padding: 150px 56px 180px 100px;
+    transition: transform 3s ease-in-out 0.3s;
+}
+.head-detail h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+.btn{
+    width: 168px;
+    height: 44px;
+    background-color:  #E02C6D;
+    padding: 10px 24px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 220x;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-left: 15px;
+    
+}
+.fa-arrow-right{
+    color: white;
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.head-img img{
+    width: 556.01px;
+    height: 438px;
+    margin: 153px 170px 100px 40px ;
+    transition: transform 3s ease-in-out 0.3s;
+}
+.head-img img:hover{
+    transform: rotate(90deg);
+}
